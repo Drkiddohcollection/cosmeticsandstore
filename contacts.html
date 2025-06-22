@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dr Kiddoh Collection</title>
+  <!-- Font Awesome for social media icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="navigation.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color:  rgb(241, 230, 230);
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    .yanga {
+      padding-top: 100px;
+    }
+
+
+    header {
+      background-color: #418039;
+      color: white;
+      padding: 20px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 0px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background: #ffffff;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      border-radius: 10px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    input, textarea {
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 12px;
+      background-color: #ff69b4;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #e055a1;
+    }
+
+    .contact-info {
+      margin-top: 30px;
+      font-size: 0.95em;
+    }
+
+    .contact-info p {
+      margin: 6px 0;
+    }
+
+    .social-media {
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    .social-media a {
+      margin: 0 10px;
+      text-decoration: none;
+      font-size: 24px;
+      color: #ff69b4;
+      transition: color 0.3s;
+    }
+
+    .social-media a:hover {
+      color: #d63384;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #f3e4ea;
+      color: #555;
+      font-size: 0.9em;
+      margin-top: 40px;
+    }
+    @media (max-width: 810;) {
+   .container {
+        padding-top:  500px;
+      }
+    }
+  </style>
+</head>
+<body>
+   <nav>
+    <!-- Logo Section -->
+    <div class="logo">
+      <img src="PICHA/logo.jpg" alt="DR KIDDO Collection Logo">
+    </div>
+
+    <!-- Menu Links -->
+  
+    <div class="mama">
+      <a href="Index.html">Home</a>
+      <a href="PRODUCTS.html">Product</a>
+      <a href="About.html">About</a>
+      <a href="contacts.html">Contact</a>
+    </div>
+  </nav>
+ <section class="yanga">
+  <div class="container">
+    <form action="mailto:alicegkd@gmail.com" method="post" enctype="text/plain">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="contact-info">
+      <h3>Our Office</h3>
+      <p>Dr Kiddoh collection</p>
+      <p>Tungi streat, Kigamboni, Dar es salam. City</p>
+      <p>Email: alicegkd@gmail.com</p>
+      <p>Phone: +255 760805163</p>
+    </div>
+
+    <div class="social-media">
+      <h3>Follow Us</h3>
+      <a href="https://www.facebook.com/profile.php?id=61564952095349" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.instagram.com/aliceg.kd?igsh=MXFqZDM5NTlrOGE2dg==" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.tiktok.com/@the.boss.madame?_t=ZM-8xMDT25cdKa&_r=1" target="_blank"><i class="fab fa-tiktok"></i></a>
+    </div>
+  </div>
+ </section>
+ 
+
+  <footer>
+    &copy; 2025 Dr Kiddoh collection. All rights reserved.
+  </footer>
+
+</body>
+</html>

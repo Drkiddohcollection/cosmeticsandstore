@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DR KIDDO Collection – Home</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="navigation.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  
+
+    /* Hero Section */
+    .hero {
+      height: 100vh;
+      background: url(PICHA/BACK1.jpg) no-repeat center center/cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      padding-top: 80px;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 1;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      text-align: center;
+      color: white;
+      padding: 20px;
+    }
+
+    .hero-content h1 {
+      font-family: 'Caveat', cursive;
+      font-size: 64px;
+      color: #ff69b4;
+      margin-bottom: 20px;
+    }
+
+    .hero-content p {
+      font-size: 24px;
+      color: #fff;
+      margin-bottom: 30px;
+    }
+
+    .hero-content a {
+      text-decoration: none;
+      background-color: #ff69b4;
+      color: white;
+      padding: 12px 25px;
+      font-size: 18px;
+      border-radius: 25px;
+      transition: background-color 0.3s ease;
+    }
+
+    .hero-content a:hover {
+      background-color: #ff1493;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #1a1a1a;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+
+    @media (max-width: 768px) {
+      .hero-content h1 {
+        font-size: 42px;
+      }
+
+      .hero-content p {
+        font-size: 18px;
+      }
+
+      nav {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .nav-links {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+ <nav>
+    <!-- Logo Section -->
+    <div class="logo">
+      <img src="PICHA/logo.jpg" alt="DR KIDDO Collection Logo">
+    </div>
+
+    <!-- Menu Links -->
+  
+    <div class="mama">
+      <a href="Index.html">Home</a>
+      <a href="PRODUCTS.html">Product</a>
+      <a href="About.html">About</a>
+      <a href="contacts.html">Contact</a>
+    </div>
+  </nav>  
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1></h1>
+      <p>Where beauty meets confidence & naturally yours.</p>
+      <a href="products.html">Explore Products</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 DR KIDDO Collection. All rights reserved.
+  </footer>
+
+</body>
+</html>
